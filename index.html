@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello, World!</title>
+    <title>Student Sahayak - Admin Portal</title>
     <link rel="stylesheet" href="style.css" />
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>        <!--https://boxicons.com/ -->
       
@@ -12,15 +12,15 @@
         <div class="form-container sign-up">
             <form>
                 <h1>Create Account</h1>
-                <div class="social-icons">
+                <!-- <div class="social-icons"> 
                     <a href="#" class="icons"><i class='bx bxl-google'></i></a>
                     <a href="#" class="icons"><i class='bx bxl-facebook'></i></a>
                     <a href="#" class="icons"><i class='bx bxl-github'></i></a>
                     <a href="#" class="icons"><i class='bx bxl-linkedin'></i></a>
-                </div>
+                </div> -->
                 <span>Register with E-mail</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Enter E-mail">
+                <input type="text" placeholder="Enter E-mail">
+                <input type="text" placeholder="Enter Employee ID">
                 <input type="password" placeholder="Enter Password">
                 <input type="password" placeholder="Confrim Password">
                 <button>Sign Up</button>
@@ -31,15 +31,15 @@
         <div class="form-container sign-in">
             <form>
                 <h1>Sign In</h1>
-                <div class="social-icons">
+                <!-- <div class="social-icons">
                     <a href="#" class="icons"><i class='bx bxl-google'></i></a>
                     <a href="#" class="icons"><i class='bx bxl-facebook'></i></a>
                     <a href="#" class="icons"><i class='bx bxl-github'></i></a>
                     <a href="#" class="icons"><i class='bx bxl-linkedin'></i></a>
-                </div>
-                <span>Login With Email & Password</span>
-                <input type="email" placeholder="Enter E-mail">
-                <input type="password" placeholder="Enter Password">
+                </div> -->
+                <span>Login With Employee I'D & Password</span>
+                <input type="text" id="login-empid" placeholder="Enter Employee ID">
+                <input type="password" id="login-password" placeholder="Enter Password">
                 <a href="#">Forget Password?</a>
                 <button>Sign In</button>
             </form>
@@ -49,13 +49,13 @@
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Welcome To <br>AppScribe Innovations</h1>
-                    <p>Sign in With ID & Passowrd</p>
+                    <h1>Welcome To <br>Student Sahayak</h1>
+                    <p>Sign in With Employee ID & Passowrd</p>
                     <button class="hidden" id="login">Sign In</button>
                 </div>
                 <div class="toggle-panel toggle-right">
-                    <h1>Hii Clients</h1>
-                    <p>Join "AppScribe Innovations" to Make Your Business More Easier</p>
+                    <h1>Hii Employees</h1>
+                    <p>Join "Student Sahyak" to Manage your Employee Profile</p>
                     <button class="hidden" id="register">Sign Up</button>
                 </div>
             </div>
